@@ -5,7 +5,9 @@
 #include "ofxKinect.h"
 #include "surflib.h"
 //#include "kmeans.h"
-#include "ofxOpenSurf.h"
+//#include "ofxOpenSurf.h"
+#include "ofxOsc.h"
+#include "wiimote.h"
 #include "ofxAutoControlPanel.h"
 
 
@@ -29,11 +31,12 @@ class testApp : public ofBaseApp{
     // kinect
 		ofxKinect kinect;  
   
+    // NO SURF UNTIL WE HAVE RGB CALIBRATION
     // surf
-    ofxSurfImage surfImage;  
-    ofxSurfMotion surfMotion;
-    IpVec surfPoints;
-    IpPairVec surfMatches;
+//    ofxSurfImage surfImage;  
+//    ofxSurfMotion surfMotion;
+//    IpVec surfPoints;
+//    IpPairVec surfMatches;
   
     // control panel
     ofxAutoControlPanel panel;
@@ -51,7 +54,8 @@ class testApp : public ofBaseApp{
   
   
     // IMU
-    // TODO
+		wiimote wii;
+  
     
   
 
