@@ -5518,9 +5518,9 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>326791405.49931097</real>
-		<string>{3443, 1710}</string>
-		<string>{4509, 0}</string>
+		<real>326792067.19232202</real>
+		<string>{2654, 1471}</string>
+		<string>{3310, 0}</string>
 		<string>testApp::update()</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
@@ -8935,27 +8935,27 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1533</integer>
+					<integer>1543</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1538</integer>
+					<integer>1548</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1541</integer>
+					<integer>1551</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1571</integer>
+					<integer>1581</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1572</integer>
+					<integer>1582</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1585</integer>
+					<integer>1595</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -9019,7 +9019,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1462</integer>
+					<integer>1472</integer>
 				</dict>
 			</array>
 		</dict>
@@ -16109,13 +16109,17 @@
 					<key>CF$UID</key>
 					<integer>1320</integer>
 				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
 				<dict>
 					<key>CF$UID</key>
 					<integer>1322</integer>
 				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1324</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
 				<dict>
 					<key>CF$UID</key>
 					<integer>1326</integer>
@@ -16126,7 +16130,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1333</integer>
+					<integer>1334</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -16134,15 +16138,15 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
+					<integer>1340</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
 					<integer>1344</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1348</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1352</integer>
+					<integer>1351</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -16158,15 +16162,15 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1365</integer>
+					<integer>1366</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1368</integer>
+					<integer>1369</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1371</integer>
+					<integer>1372</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -16174,11 +16178,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1379</integer>
+					<integer>1378</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1382</integer>
+					<integer>1381</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -16186,7 +16190,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1388</integer>
+					<integer>1389</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -16214,7 +16218,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1411</integer>
+					<integer>1412</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -16226,7 +16230,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1422</integer>
+					<integer>1421</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -16234,27 +16238,27 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1430</integer>
+					<integer>1428</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1434</integer>
+					<integer>1432</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1438</integer>
+					<integer>1435</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1442</integer>
+					<integer>1440</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1445</integer>
+					<integer>1444</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1449</integer>
+					<integer>1448</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -16266,7 +16270,19 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1458</integer>
+					<integer>1459</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1462</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1465</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1468</integer>
 				</dict>
 			</array>
 		</dict>
@@ -16372,7 +16388,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofVec3f.h</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/ofCamera.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16398,7 +16414,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/addons/ofxKinect/libs/libfreenect/libfreenect.h</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofVec3f.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16424,7 +16440,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworks0062/apps/mika/uberbeamer/src/utils/ofxControlPanel/src/simpleFileLister.h</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/addons/ofxKinect/libs/libfreenect/libfreenect.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16450,7 +16466,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/utils/ofConstants.h</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworks0062/apps/mika/uberbeamer/src/utils/ofxControlPanel/src/simpleFileLister.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16476,7 +16492,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofQuaternion.cpp</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/utils/ofConstants.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16502,7 +16518,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/apps/mika/uberbeamer/src/testApp.h</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofQuaternion.cpp</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16528,7 +16544,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/ofEasyCam.cpp</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/apps/mika/uberbeamer/src/testApp.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16554,7 +16570,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/apps/mika/uberbeamer/src/main.cpp</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/ofEasyCam.cpp</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16580,7 +16596,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofVec4f.cpp</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/apps/mika/uberbeamer/src/main.cpp</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16606,7 +16622,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofVec2f.cpp</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofVec4f.cpp</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16632,7 +16648,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/apps/mika/uberbeamer/src/testApp.cpp</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofVec2f.cpp</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16658,7 +16674,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/addons/ofxKinect/src/ofxKinect.h</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/ofEasyCam.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16684,7 +16700,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/of3dUtils.cpp</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/apps/mika/uberbeamer/src/testApp.cpp</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16710,7 +16726,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/ofMain.h</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/addons/ofxKinect/src/ofxKinect.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16736,7 +16752,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/graphics/ofPixels.cpp</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/of3dUtils.cpp</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16762,7 +16778,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/graphics/ofGraphics.h</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/ofMain.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16788,7 +16804,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofMath.h</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/graphics/ofPixels.cpp</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16814,7 +16830,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/ofNode.h</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/graphics/ofGraphics.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16840,7 +16856,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/gl/ofGLUtils.h</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofMath.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16866,7 +16882,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/of3dUtils.h</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/ofNode.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16892,7 +16908,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofVec2f.h</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/gl/ofGLUtils.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16918,7 +16934,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/addons/ofxKinect/libs/libfreenect/libfreenect.pc.in</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/of3dUtils.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16944,7 +16960,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/addons/ofxOpenSurf/src/ofxOpenSurf.cpp</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofVec2f.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16970,7 +16986,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/addons/ofxKinect/libs/libfreenect/usb_libusb10.h</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/addons/ofxKinect/libs/libfreenect/libfreenect.pc.in</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -16996,7 +17012,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofQuaternion.h</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/addons/ofxOpenSurf/src/ofxOpenSurf.cpp</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -17022,7 +17038,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/addons/ofxKinect/README.markdown</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/addons/ofxKinect/libs/libfreenect/usb_libusb10.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -17048,7 +17064,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/ofNode.cpp</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofQuaternion.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -17074,7 +17090,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/apps/mika/uberbeamer/src/wiimote.h</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/addons/ofxKinect/README.markdown</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -17100,7 +17116,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/apps/mika/uberbeamer/src/wiimote.cpp</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/ofNode.cpp</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -17126,7 +17142,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/ofMesh.cpp</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/apps/mika/uberbeamer/src/wiimote.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -17152,7 +17168,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofVectorMath.h</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/apps/mika/uberbeamer/src/wiimote.cpp</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -17178,7 +17194,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/graphics/ofGraphics.cpp</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/ofMesh.cpp</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -17204,7 +17220,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/addons/ofxOsc/install.xml</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofVectorMath.h</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -17230,7 +17246,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/addons/ofxKinect/.gitignore</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/graphics/ofGraphics.cpp</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -17256,7 +17272,7 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/addons/ofxOsc/src/ofxOscReceiver.h</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/addons/ofxOsc/install.xml</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -17282,56 +17298,60 @@
 				<integer>116</integer>
 			</dict>
 			<key>NS.string</key>
-			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/ofMesh.h</string>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/addons/ofxKinect/.gitignore</string>
 		</dict>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>37</integer>
+				<integer>362</integer>
 			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>466</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>467</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>468</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>469</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1323</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1324</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>23</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1325</integer>
-				</dict>
-			</array>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1323</integer>
+			</dict>
 		</dict>
-		<real>326783733.45811701</real>
-		<string>{0, 1081}</string>
-		<string>{0, 0}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>116</integer>
+			</dict>
+			<key>NS.string</key>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/addons/ofxOsc/src/ofxOscReceiver.h</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>362</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1325</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>116</integer>
+			</dict>
+			<key>NS.string</key>
+			<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/ofMesh.h</string>
+		</dict>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -17377,9 +17397,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>326785743.27122402</real>
-		<string>{6742, 1465}</string>
-		<string>{7455, 21}</string>
+		<real>326791508.67630303</real>
+		<string>{0, 810}</string>
+		<string>{0, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -17421,7 +17441,55 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1325</integer>
+					<integer>1333</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>326785743.27122402</real>
+		<string>{6742, 1465}</string>
+		<string>{7455, 21}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>37</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>466</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>467</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>468</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>469</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1335</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1336</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>23</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1329</integer>
 				</dict>
 			</array>
 		</dict>
@@ -17456,11 +17524,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1334</integer>
+					<integer>1338</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1335</integer>
+					<integer>1339</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -17468,13 +17536,12 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1336</integer>
+					<integer>1329</integer>
 				</dict>
 			</array>
 		</dict>
-		<real>326790940.36823303</real>
-		<string>{4088, 1076}</string>
-		<string>{4825, 5}</string>
+		<real>326791507.31370598</real>
+		<string>{0, 1203}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -17485,30 +17552,30 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1338</integer>
+					<integer>466</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1339</integer>
+					<integer>467</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1340</integer>
+					<integer>468</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1341</integer>
+					<integer>469</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1342</integer>
+					<integer>1341</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1343</integer>
+					<integer>1342</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -17516,7 +17583,55 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1325</integer>
+					<integer>1343</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>326791917.70446301</real>
+		<string>{1301, 1839}</string>
+		<string>{2185, 5}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>37</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1345</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1346</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1347</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1348</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1349</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1350</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>23</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1329</integer>
 				</dict>
 			</array>
 		</dict>
@@ -17536,25 +17651,6 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1338</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1339</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1340</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1341</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
 					<integer>1345</integer>
 				</dict>
 				<dict>
@@ -17563,112 +17659,36 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>23</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
 					<integer>1347</integer>
 				</dict>
-			</array>
-		</dict>
-		<real>326756546.18802398</real>
-		<string>{0, 754}</string>
-		<string>{126, 0}</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>37</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>466</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>467</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>468</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>469</integer>
+					<integer>1348</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1349</integer>
+					<integer>1352</integer>
 				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1350</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>23</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1351</integer>
-				</dict>
-			</array>
-		</dict>
-		<real>326789522.28030503</real>
-		<string>{3777, 922}</string>
-		<string>{3993, 0}</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>37</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>466</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>467</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>468</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>469</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
 				<dict>
 					<key>CF$UID</key>
 					<integer>1353</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1354</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
 					<integer>23</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1325</integer>
+					<integer>1354</integer>
 				</dict>
 			</array>
 		</dict>
-		<real>326790943.05851501</real>
-		<string>{0, 1288}</string>
+		<real>326756546.18802398</real>
+		<string>{0, 754}</string>
+		<string>{126, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -17714,9 +17734,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>326791341.30163997</real>
-		<string>{311, 894}</string>
-		<string>{1189, 0}</string>
+		<real>326789522.28030503</real>
+		<string>{3777, 922}</string>
+		<string>{3993, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -17758,12 +17778,12 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1325</integer>
+					<integer>1329</integer>
 				</dict>
 			</array>
 		</dict>
-		<real>326789742.30250299</real>
-		<string>{0, 1142}</string>
+		<real>326790943.05851501</real>
+		<string>{0, 1288}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -17805,7 +17825,102 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1325</integer>
+					<integer>1365</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>326791919.23784101</real>
+		<string>{311, 894}</string>
+		<string>{1189, 0}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>37</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>466</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>467</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>468</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>469</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1367</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1368</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>23</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1329</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>326789742.30250299</real>
+		<string>{0, 1142}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>37</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>466</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>467</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>468</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>469</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1370</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1371</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>23</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1329</integer>
 				</dict>
 			</array>
 		</dict>
@@ -17840,11 +17955,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1366</integer>
+					<integer>1373</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1367</integer>
+					<integer>1374</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -17852,11 +17967,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1325</integer>
+					<integer>1329</integer>
 				</dict>
 			</array>
 		</dict>
-		<real>326786671.970617</real>
+		<real>326791915.186755</real>
 		<string>{0, 231}</string>
 		<dict>
 			<key>$class</key>
@@ -17887,11 +18002,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1369</integer>
+					<integer>1376</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1370</integer>
+					<integer>1377</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -17899,7 +18014,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1325</integer>
+					<integer>1329</integer>
 				</dict>
 			</array>
 		</dict>
@@ -17934,11 +18049,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1372</integer>
+					<integer>1379</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1373</integer>
+					<integer>1380</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -17946,13 +18061,12 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1374</integer>
+					<integer>1329</integer>
 				</dict>
 			</array>
 		</dict>
-		<real>326791405.48736501</real>
-		<string>{3443, 1710}</string>
-		<string>{4509, 0}</string>
+		<real>326791624.89513397</real>
+		<string>{0, 1091}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -17963,30 +18077,30 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1338</integer>
+					<integer>466</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1339</integer>
+					<integer>467</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1340</integer>
+					<integer>468</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1341</integer>
+					<integer>469</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1376</integer>
+					<integer>1382</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1377</integer>
+					<integer>1383</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -17994,7 +18108,55 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1378</integer>
+					<integer>1384</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>326792067.18925202</real>
+		<string>{2654, 1471}</string>
+		<string>{3310, 0}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>37</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1345</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1346</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1347</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1348</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1386</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1387</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>23</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1388</integer>
 				</dict>
 			</array>
 		</dict>
@@ -18030,166 +18192,24 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1380</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1381</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>23</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1325</integer>
-				</dict>
-			</array>
-		</dict>
-		<real>326789743.92251098</real>
-		<string>{0, 359}</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>37</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>466</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>467</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>468</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>469</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1383</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1384</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>23</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1325</integer>
-				</dict>
-			</array>
-		</dict>
-		<real>326780758.34752899</real>
-		<string>{0, 1101}</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>37</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>466</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>467</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>468</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>469</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1386</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1387</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>23</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1325</integer>
-				</dict>
-			</array>
-		</dict>
-		<real>326788594.45959002</real>
-		<string>{0, 921}</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>37</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>466</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>467</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>468</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>469</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1389</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
 					<integer>1390</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>23</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>1391</integer>
 				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>23</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1329</integer>
+				</dict>
 			</array>
 		</dict>
-		<real>326788618.62458098</real>
-		<string>{5842, 1491}</string>
-		<string>{6737, 0}</string>
+		<real>326791918.65396702</real>
+		<string>{0, 359}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -18231,12 +18251,12 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1325</integer>
+					<integer>1329</integer>
 				</dict>
 			</array>
 		</dict>
-		<real>326788536.11408401</real>
-		<string>{0, 1769}</string>
+		<real>326780758.34752899</real>
+		<string>{0, 1101}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -18278,12 +18298,12 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1325</integer>
+					<integer>1329</integer>
 				</dict>
 			</array>
 		</dict>
-		<real>326789545.73155302</real>
-		<string>{0, 1000}</string>
+		<real>326788594.45959002</real>
+		<string>{0, 921}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -18329,9 +18349,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>326789740.69102502</real>
-		<string>{0, 788}</string>
-		<string>{364, 0}</string>
+		<real>326788618.62458098</real>
+		<string>{5842, 1491}</string>
+		<string>{6737, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -18373,12 +18393,12 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1325</integer>
+					<integer>1329</integer>
 				</dict>
 			</array>
 		</dict>
-		<real>326782286.79571497</real>
-		<string>{0, 43}</string>
+		<real>326788536.11408401</real>
+		<string>{0, 1769}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -18420,12 +18440,12 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1325</integer>
+					<integer>1329</integer>
 				</dict>
 			</array>
 		</dict>
-		<real>326785243.27525598</real>
-		<string>{0, 1414}</string>
+		<real>326789545.73155302</real>
+		<string>{0, 1000}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -18467,12 +18487,13 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1325</integer>
+					<integer>1411</integer>
 				</dict>
 			</array>
 		</dict>
-		<real>326776612.62240499</real>
-		<string>{0, 346}</string>
+		<real>326789740.69102502</real>
+		<string>{0, 788}</string>
+		<string>{364, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -18483,30 +18504,30 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1338</integer>
+					<integer>466</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1339</integer>
+					<integer>467</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1340</integer>
+					<integer>468</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1341</integer>
+					<integer>469</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1412</integer>
+					<integer>1413</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1413</integer>
+					<integer>1414</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -18514,13 +18535,12 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1414</integer>
+					<integer>1329</integer>
 				</dict>
 			</array>
 		</dict>
-		<real>326721300.45921099</real>
-		<string>{0, 1547}</string>
-		<string>{1695, 0}</string>
+		<real>326791629.04850799</real>
+		<string>{0, 43}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -18531,19 +18551,19 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1338</integer>
+					<integer>466</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1339</integer>
+					<integer>467</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1340</integer>
+					<integer>468</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1341</integer>
+					<integer>469</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
@@ -18562,12 +18582,12 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1325</integer>
+					<integer>1329</integer>
 				</dict>
 			</array>
 		</dict>
-		<real>326713904.33421201</real>
-		<string>{0, 1951}</string>
+		<real>326785243.27525598</real>
+		<string>{0, 1414}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -18609,7 +18629,149 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1421</integer>
+					<integer>1329</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>326776612.62240499</real>
+		<string>{0, 346}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>37</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1345</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1346</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1347</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1348</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1422</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1423</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>23</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1424</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>326721300.45921099</real>
+		<string>{0, 1547}</string>
+		<string>{1695, 0}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>37</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1345</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1346</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1347</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1348</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1426</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1427</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>23</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1329</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>326713904.33421201</real>
+		<string>{0, 1951}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>37</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>466</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>467</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>468</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>469</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1429</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1430</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>23</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1431</integer>
 				</dict>
 			</array>
 		</dict>
@@ -18626,30 +18788,30 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1338</integer>
+					<integer>1345</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1339</integer>
+					<integer>1346</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1340</integer>
+					<integer>1347</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1341</integer>
+					<integer>1348</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1423</integer>
+					<integer>1433</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1424</integer>
+					<integer>1434</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -18657,7 +18819,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1325</integer>
+					<integer>1329</integer>
 				</dict>
 			</array>
 		</dict>
@@ -18685,7 +18847,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1426</integer>
+					<integer>1436</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -18696,11 +18858,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1427</integer>
+					<integer>1437</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1428</integer>
+					<integer>1438</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -18708,11 +18870,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1429</integer>
+					<integer>1439</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1325</integer>
+					<integer>1329</integer>
 				</dict>
 			</array>
 		</dict>
@@ -18772,11 +18934,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1431</integer>
+					<integer>1441</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1432</integer>
+					<integer>1442</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -18784,7 +18946,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1433</integer>
+					<integer>1443</integer>
 				</dict>
 			</array>
 		</dict>
@@ -18820,11 +18982,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1435</integer>
+					<integer>1445</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1436</integer>
+					<integer>1446</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -18832,7 +18994,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1437</integer>
+					<integer>1447</integer>
 				</dict>
 			</array>
 		</dict>
@@ -18868,167 +19030,25 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1439</integer>
+					<integer>1449</integer>
 				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1440</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>23</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1441</integer>
-				</dict>
-			</array>
-		</dict>
-		<real>326789719.54476702</real>
-		<string>{8811, 1009}</string>
-		<string>{9247, 0}</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>37</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>466</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>467</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>468</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>469</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1443</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1444</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>23</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1325</integer>
-				</dict>
-			</array>
-		</dict>
-		<real>326790941.49470299</real>
-		<string>{0, 153}</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>37</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>466</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>467</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>468</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>469</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1446</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1447</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>23</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1448</integer>
-				</dict>
-			</array>
-		</dict>
-		<real>326788866.19137502</real>
-		<string>{345, 992}</string>
-		<string>{949, 0}</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>37</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>466</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>467</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>468</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>469</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
 				<dict>
 					<key>CF$UID</key>
 					<integer>1450</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1451</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
 					<integer>23</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1325</integer>
+					<integer>1451</integer>
 				</dict>
 			</array>
 		</dict>
-		<real>326778533.01686698</real>
-		<string>{0, 1870}</string>
+		<real>326791624.024876</real>
+		<string>{7252, 1034}</string>
+		<string>{8285, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -19039,19 +19059,19 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1338</integer>
+					<integer>466</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1339</integer>
+					<integer>467</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1340</integer>
+					<integer>468</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1341</integer>
+					<integer>469</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
@@ -19070,12 +19090,12 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1325</integer>
+					<integer>1329</integer>
 				</dict>
 			</array>
 		</dict>
-		<real>326713887.78585702</real>
-		<string>{0, 90}</string>
+		<real>326790941.49470299</real>
+		<string>{0, 153}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -19117,7 +19137,149 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1325</integer>
+					<integer>1458</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>326788866.19137502</real>
+		<string>{345, 992}</string>
+		<string>{949, 0}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>37</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>466</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>467</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>468</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>469</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1460</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1461</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>23</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1329</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>326778533.01686698</real>
+		<string>{0, 1870}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>37</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1345</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1346</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1347</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1348</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1463</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1464</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>23</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1329</integer>
+				</dict>
+			</array>
+		</dict>
+		<real>326713887.78585702</real>
+		<string>{0, 90}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>37</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>466</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>467</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>468</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>469</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1466</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1467</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>23</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1329</integer>
 				</dict>
 			</array>
 		</dict>
@@ -19152,11 +19314,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1459</integer>
+					<integer>1469</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1460</integer>
+					<integer>1470</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -19164,13 +19326,13 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1461</integer>
+					<integer>1471</integer>
 				</dict>
 			</array>
 		</dict>
-		<real>326789838.01125598</real>
+		<real>326791505.52777898</real>
 		<string>{2297, 1054}</string>
-		<string>{2822, 0}</string>
+		<string>{2864, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -19179,26 +19341,6 @@
 			</dict>
 			<key>NS.keys</key>
 			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1463</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1465</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1467</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1469</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1471</integer>
-				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>1473</integer>
@@ -19223,24 +19365,36 @@
 					<key>CF$UID</key>
 					<integer>1483</integer>
 				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
 				<dict>
 					<key>CF$UID</key>
 					<integer>1485</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1494</integer>
+					<integer>1487</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1497</integer>
+					<integer>1489</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1502</integer>
+					<integer>1491</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1493</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1495</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1504</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -19248,120 +19402,38 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1510</integer>
+					<integer>1512</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1515</integer>
+					<integer>1517</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1521</integer>
+					<integer>1520</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1524</integer>
+					<integer>1525</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1527</integer>
+					<integer>1531</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1530</integer>
+					<integer>1534</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1537</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1540</integer>
 				</dict>
 			</array>
 		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>362</integer>
-			</dict>
-			<key>NS.base</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-			<key>NS.relative</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1464</integer>
-			</dict>
-		</dict>
-		<string>x-xcode-log://19C137A5-B651-4EE2-B695-60E327C406E1</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>362</integer>
-			</dict>
-			<key>NS.base</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-			<key>NS.relative</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1466</integer>
-			</dict>
-		</dict>
-		<string>x-xcode-log://369E944A-56AA-4B44-AD9C-B20B2D5961A3</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>362</integer>
-			</dict>
-			<key>NS.base</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-			<key>NS.relative</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1468</integer>
-			</dict>
-		</dict>
-		<string>x-xcode-log://E3DA8C31-0554-44A8-8627-F288A1E7ABB2</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>362</integer>
-			</dict>
-			<key>NS.base</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-			<key>NS.relative</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1470</integer>
-			</dict>
-		</dict>
-		<string>x-xcode-log://6214B09D-3124-426E-A260-24C06EEF59AB</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>362</integer>
-			</dict>
-			<key>NS.base</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-			<key>NS.relative</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1472</integer>
-			</dict>
-		</dict>
-		<string>x-xcode-log://3A05278B-647F-44C3-A9FE-D01AFCDB76B2</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -19379,7 +19451,7 @@
 				<integer>1474</integer>
 			</dict>
 		</dict>
-		<string>x-xcode-log://91D33D8F-E90E-49EB-8CD8-E814216D697C</string>
+		<string>x-xcode-log://19C137A5-B651-4EE2-B695-60E327C406E1</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -19397,7 +19469,7 @@
 				<integer>1476</integer>
 			</dict>
 		</dict>
-		<string>x-xcode-log://C0917E10-A1D7-4C47-930F-4793E11C3FA4</string>
+		<string>x-xcode-log://369E944A-56AA-4B44-AD9C-B20B2D5961A3</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -19415,7 +19487,7 @@
 				<integer>1478</integer>
 			</dict>
 		</dict>
-		<string>x-xcode-log://31910A71-AD8F-493E-9174-EBF1C22014E7</string>
+		<string>x-xcode-log://E3DA8C31-0554-44A8-8627-F288A1E7ABB2</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -19433,7 +19505,7 @@
 				<integer>1480</integer>
 			</dict>
 		</dict>
-		<string>x-xcode-log://8086FBE8-38E3-4935-BAB7-ED1DE535E6D6</string>
+		<string>x-xcode-log://6214B09D-3124-426E-A260-24C06EEF59AB</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -19451,7 +19523,7 @@
 				<integer>1482</integer>
 			</dict>
 		</dict>
-		<string>x-xcode-log://EA78E536-3769-48A6-BAE8-318217EEF374</string>
+		<string>x-xcode-log://3A05278B-647F-44C3-A9FE-D01AFCDB76B2</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -19469,6 +19541,96 @@
 				<integer>1484</integer>
 			</dict>
 		</dict>
+		<string>x-xcode-log://91D33D8F-E90E-49EB-8CD8-E814216D697C</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>362</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1486</integer>
+			</dict>
+		</dict>
+		<string>x-xcode-log://C0917E10-A1D7-4C47-930F-4793E11C3FA4</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>362</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1488</integer>
+			</dict>
+		</dict>
+		<string>x-xcode-log://31910A71-AD8F-493E-9174-EBF1C22014E7</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>362</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1490</integer>
+			</dict>
+		</dict>
+		<string>x-xcode-log://8086FBE8-38E3-4935-BAB7-ED1DE535E6D6</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>362</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1492</integer>
+			</dict>
+		</dict>
+		<string>x-xcode-log://EA78E536-3769-48A6-BAE8-318217EEF374</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>362</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1494</integer>
+			</dict>
+		</dict>
 		<string>x-xcode-log://DB00EA2F-597D-4EDD-A9A5-E7809C21B300</string>
 		<dict>
 			<key>$class</key>
@@ -19480,14 +19642,14 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1486</integer>
+					<integer>1496</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1487</integer>
+					<integer>1497</integer>
 				</dict>
 			</array>
 		</dict>
@@ -19502,7 +19664,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1488</integer>
+					<integer>1498</integer>
 				</dict>
 			</array>
 		</dict>
@@ -19510,19 +19672,19 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1493</integer>
+				<integer>1503</integer>
 			</dict>
 			<key>documentURL</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1464</integer>
+				<integer>1474</integer>
 			</dict>
 			<key>expandTranscript</key>
 			<false/>
 			<key>indexPath</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1489</integer>
+				<integer>1499</integer>
 			</dict>
 			<key>timestamp</key>
 			<dict>
@@ -19534,12 +19696,12 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1492</integer>
+				<integer>1502</integer>
 			</dict>
 			<key>NSIndexPathData</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1490</integer>
+				<integer>1500</integer>
 			</dict>
 			<key>NSIndexPathLength</key>
 			<integer>2</integer>
@@ -19548,7 +19710,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1491</integer>
+				<integer>1501</integer>
 			</dict>
 			<key>NS.data</key>
 			<data>
@@ -19594,14 +19756,14 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1486</integer>
+					<integer>1496</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1495</integer>
+					<integer>1505</integer>
 				</dict>
 			</array>
 		</dict>
@@ -19612,216 +19774,48 @@
 				<integer>55</integer>
 			</dict>
 			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1506</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1503</integer>
+			</dict>
+			<key>documentURL</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1476</integer>
+			</dict>
+			<key>expandTranscript</key>
+			<false/>
+			<key>indexPath</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1499</integer>
+			</dict>
+			<key>timestamp</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>37</integer>
+			</dict>
+			<key>NS.keys</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
 					<integer>1496</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1493</integer>
-			</dict>
-			<key>documentURL</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1466</integer>
-			</dict>
-			<key>expandTranscript</key>
-			<false/>
-			<key>indexPath</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1489</integer>
-			</dict>
-			<key>timestamp</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>37</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1486</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1498</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>55</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1499</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1493</integer>
-			</dict>
-			<key>documentURL</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1468</integer>
-			</dict>
-			<key>expandTranscript</key>
-			<false/>
-			<key>indexPath</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1500</integer>
-			</dict>
-			<key>timestamp</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1492</integer>
-			</dict>
-			<key>NSIndexPathData</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1501</integer>
-			</dict>
-			<key>NSIndexPathLength</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1491</integer>
-			</dict>
-			<key>NS.data</key>
-			<data>
-			ABw=
-			</data>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>37</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1486</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1503</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>55</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1504</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1493</integer>
-			</dict>
-			<key>documentURL</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1470</integer>
-			</dict>
-			<key>expandTranscript</key>
-			<false/>
-			<key>indexPath</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1505</integer>
-			</dict>
-			<key>timestamp</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1492</integer>
-			</dict>
-			<key>NSIndexPathData</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1506</integer>
-			</dict>
-			<key>NSIndexPathLength</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1491</integer>
-			</dict>
-			<key>NS.data</key>
-			<data>
-			ADg=
-			</data>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>37</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1486</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
@@ -19850,19 +19844,187 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1493</integer>
+				<integer>1503</integer>
 			</dict>
 			<key>documentURL</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1472</integer>
+				<integer>1478</integer>
 			</dict>
 			<key>expandTranscript</key>
 			<false/>
 			<key>indexPath</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1489</integer>
+				<integer>1510</integer>
+			</dict>
+			<key>timestamp</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1502</integer>
+			</dict>
+			<key>NSIndexPathData</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1511</integer>
+			</dict>
+			<key>NSIndexPathLength</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1501</integer>
+			</dict>
+			<key>NS.data</key>
+			<data>
+			ABw=
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>37</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1496</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1513</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>55</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1514</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1503</integer>
+			</dict>
+			<key>documentURL</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1480</integer>
+			</dict>
+			<key>expandTranscript</key>
+			<false/>
+			<key>indexPath</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1515</integer>
+			</dict>
+			<key>timestamp</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1502</integer>
+			</dict>
+			<key>NSIndexPathData</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1516</integer>
+			</dict>
+			<key>NSIndexPathLength</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1501</integer>
+			</dict>
+			<key>NS.data</key>
+			<data>
+			ADg=
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>37</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1496</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1518</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>55</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1519</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1503</integer>
+			</dict>
+			<key>documentURL</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1482</integer>
+			</dict>
+			<key>expandTranscript</key>
+			<false/>
+			<key>indexPath</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1499</integer>
 			</dict>
 			<key>timestamp</key>
 			<dict>
@@ -19880,14 +20042,14 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1486</integer>
+					<integer>1496</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1511</integer>
+					<integer>1521</integer>
 				</dict>
 			</array>
 		</dict>
@@ -19901,7 +20063,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1512</integer>
+					<integer>1522</integer>
 				</dict>
 			</array>
 		</dict>
@@ -19909,19 +20071,19 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1493</integer>
+				<integer>1503</integer>
 			</dict>
 			<key>documentURL</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1474</integer>
+				<integer>1484</integer>
 			</dict>
 			<key>expandTranscript</key>
 			<false/>
 			<key>indexPath</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1513</integer>
+				<integer>1523</integer>
 			</dict>
 			<key>timestamp</key>
 			<dict>
@@ -19933,12 +20095,12 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1492</integer>
+				<integer>1502</integer>
 			</dict>
 			<key>NSIndexPathData</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1514</integer>
+				<integer>1524</integer>
 			</dict>
 			<key>NSIndexPathLength</key>
 			<integer>3</integer>
@@ -19947,7 +20109,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1491</integer>
+				<integer>1501</integer>
 			</dict>
 			<key>NS.data</key>
 			<data>
@@ -19964,14 +20126,14 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1516</integer>
+					<integer>1526</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1517</integer>
+					<integer>1527</integer>
 				</dict>
 			</array>
 		</dict>
@@ -19986,7 +20148,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1518</integer>
+					<integer>1528</integer>
 				</dict>
 			</array>
 		</dict>
@@ -19994,19 +20156,19 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1493</integer>
+				<integer>1503</integer>
 			</dict>
 			<key>documentURL</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1476</integer>
+				<integer>1486</integer>
 			</dict>
 			<key>expandTranscript</key>
 			<false/>
 			<key>indexPath</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1519</integer>
+				<integer>1529</integer>
 			</dict>
 			<key>timestamp</key>
 			<dict>
@@ -20018,12 +20180,12 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1492</integer>
+				<integer>1502</integer>
 			</dict>
 			<key>NSIndexPathData</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1520</integer>
+				<integer>1530</integer>
 			</dict>
 			<key>NSIndexPathLength</key>
 			<integer>2</integer>
@@ -20032,7 +20194,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1491</integer>
+				<integer>1501</integer>
 			</dict>
 			<key>NS.data</key>
 			<data>
@@ -20049,200 +20211,9 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1516</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1522</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>55</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1523</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1493</integer>
-			</dict>
-			<key>documentURL</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1478</integer>
-			</dict>
-			<key>expandTranscript</key>
-			<false/>
-			<key>indexPath</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1519</integer>
-			</dict>
-			<key>timestamp</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>37</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1486</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1525</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>55</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
 					<integer>1526</integer>
 				</dict>
 			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1493</integer>
-			</dict>
-			<key>documentURL</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1480</integer>
-			</dict>
-			<key>expandTranscript</key>
-			<false/>
-			<key>indexPath</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1489</integer>
-			</dict>
-			<key>timestamp</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>37</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1486</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1528</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>55</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1529</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1493</integer>
-			</dict>
-			<key>documentURL</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1482</integer>
-			</dict>
-			<key>expandTranscript</key>
-			<false/>
-			<key>indexPath</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1489</integer>
-			</dict>
-			<key>timestamp</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>37</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1486</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1531</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>55</integer>
-			</dict>
 			<key>NS.objects</key>
 			<array>
 				<dict>
@@ -20255,19 +20226,33 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1493</integer>
+				<integer>55</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1533</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1503</integer>
 			</dict>
 			<key>documentURL</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1484</integer>
+				<integer>1488</integer>
 			</dict>
 			<key>expandTranscript</key>
 			<false/>
 			<key>indexPath</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1489</integer>
+				<integer>1529</integer>
 			</dict>
 			<key>timestamp</key>
 			<dict>
@@ -20285,22 +20270,199 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1534</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1535</integer>
+					<integer>1496</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
+					<integer>1535</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>55</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
 					<integer>1536</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1503</integer>
+			</dict>
+			<key>documentURL</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1490</integer>
+			</dict>
+			<key>expandTranscript</key>
+			<false/>
+			<key>indexPath</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1499</integer>
+			</dict>
+			<key>timestamp</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>37</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1496</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1538</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>55</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1539</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1503</integer>
+			</dict>
+			<key>documentURL</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1492</integer>
+			</dict>
+			<key>expandTranscript</key>
+			<false/>
+			<key>indexPath</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1499</integer>
+			</dict>
+			<key>timestamp</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>37</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1496</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1541</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>55</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1542</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1503</integer>
+			</dict>
+			<key>documentURL</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1494</integer>
+			</dict>
+			<key>expandTranscript</key>
+			<false/>
+			<key>indexPath</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1499</integer>
+			</dict>
+			<key>timestamp</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>37</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1544</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1537</integer>
+					<integer>1545</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1546</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1547</integer>
 				</dict>
 			</array>
 		</dict>
@@ -20318,14 +20480,14 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1539</integer>
+					<integer>1549</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1540</integer>
+					<integer>1550</integer>
 				</dict>
 			</array>
 		</dict>
@@ -20341,26 +20503,26 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1542</integer>
+					<integer>1552</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1543</integer>
+					<integer>1553</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1544</integer>
+					<integer>1554</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1545</integer>
+					<integer>1555</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1570</integer>
+					<integer>1580</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -20381,19 +20543,19 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1546</integer>
+					<integer>1556</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1553</integer>
+					<integer>1563</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1557</integer>
+					<integer>1567</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1561</integer>
+					<integer>1571</integer>
 				</dict>
 			</array>
 		</dict>
@@ -20407,30 +20569,30 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1547</integer>
+					<integer>1557</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1548</integer>
+					<integer>1558</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1549</integer>
+					<integer>1559</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1550</integer>
+					<integer>1560</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1551</integer>
+					<integer>1561</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1552</integer>
+					<integer>1562</integer>
 				</dict>
 			</array>
 		</dict>
@@ -20450,30 +20612,30 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1547</integer>
+					<integer>1557</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1548</integer>
+					<integer>1558</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1549</integer>
+					<integer>1559</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1554</integer>
+					<integer>1564</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1555</integer>
+					<integer>1565</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1556</integer>
+					<integer>1566</integer>
 				</dict>
 			</array>
 		</dict>
@@ -20490,19 +20652,8 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1547</integer>
+					<integer>1557</integer>
 				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1548</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1549</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
 				<dict>
 					<key>CF$UID</key>
 					<integer>1558</integer>
@@ -20511,9 +20662,20 @@
 					<key>CF$UID</key>
 					<integer>1559</integer>
 				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1560</integer>
+					<integer>1568</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1569</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1570</integer>
 				</dict>
 			</array>
 		</dict>
@@ -20523,7 +20685,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1491</integer>
+				<integer>1501</integer>
 			</dict>
 			<key>NS.data</key>
 			<data>
@@ -20555,34 +20717,34 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1547</integer>
+					<integer>1557</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1562</integer>
+					<integer>1572</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1563</integer>
+					<integer>1573</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1549</integer>
+					<integer>1559</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1564</integer>
+					<integer>1574</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1565</integer>
+					<integer>1575</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1566</integer>
+					<integer>1576</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -20590,11 +20752,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1567</integer>
+					<integer>1577</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1569</integer>
+					<integer>1579</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -20615,10 +20777,10 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>1568</integer>
+				<integer>1578</integer>
 			</dict>
 			<key>NS.time</key>
-			<real>326791293.84831703</real>
+			<real>326792014.40368301</real>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -20629,7 +20791,7 @@
 			<key>$classname</key>
 			<string>NSDate</string>
 		</dict>
-		<string>Today at 3:21 AM</string>
+		<string>Today at 3:33 AM</string>
 		<integer>106</integer>
 		<dict>
 			<key>$class</key>
@@ -20655,22 +20817,22 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1573</integer>
+					<integer>1583</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1574</integer>
+					<integer>1584</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1575</integer>
+					<integer>1585</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1580</integer>
+					<integer>1590</integer>
 				</dict>
 			</array>
 		</dict>
@@ -20718,22 +20880,22 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1576</integer>
+					<integer>1586</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1577</integer>
+					<integer>1587</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1578</integer>
+					<integer>1588</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1579</integer>
+					<integer>1589</integer>
 				</dict>
 			</array>
 		</dict>
@@ -20751,22 +20913,22 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1581</integer>
+					<integer>1591</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1582</integer>
+					<integer>1592</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1583</integer>
+					<integer>1593</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1584</integer>
+					<integer>1594</integer>
 				</dict>
 			</array>
 		</dict>
@@ -20782,26 +20944,6 @@
 			</dict>
 			<key>NS.objects</key>
 			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1586</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1588</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1590</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1592</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>1594</integer>
-				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>1596</integer>
@@ -20822,98 +20964,28 @@
 					<key>CF$UID</key>
 					<integer>1604</integer>
 				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1606</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1608</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1610</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1612</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>1614</integer>
+				</dict>
 			</array>
 		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>362</integer>
-			</dict>
-			<key>NS.base</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-			<key>NS.relative</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1587</integer>
-			</dict>
-		</dict>
-		<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/apps/mika/uberbeamer/src/testApp.cpp</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>362</integer>
-			</dict>
-			<key>NS.base</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-			<key>NS.relative</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1589</integer>
-			</dict>
-		</dict>
-		<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/apps/mika/uberbeamer/src/testApp.h</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>362</integer>
-			</dict>
-			<key>NS.base</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-			<key>NS.relative</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1591</integer>
-			</dict>
-		</dict>
-		<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofQuaternion.h</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>362</integer>
-			</dict>
-			<key>NS.base</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-			<key>NS.relative</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1593</integer>
-			</dict>
-		</dict>
-		<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofQuaternion.cpp</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>362</integer>
-			</dict>
-			<key>NS.base</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-			<key>NS.relative</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>1595</integer>
-			</dict>
-		</dict>
-		<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofVectorMath.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -20931,7 +21003,7 @@
 				<integer>1597</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofVec3f.h</string>
+		<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/apps/mika/uberbeamer/src/testApp.cpp</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -20949,7 +21021,7 @@
 				<integer>1599</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/apps/mika/uberbeamer/src/wiimote.h</string>
+		<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/apps/mika/uberbeamer/src/testApp.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -20967,7 +21039,7 @@
 				<integer>1601</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/apps/mika/uberbeamer/src/main.cpp</string>
+		<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/of3dUtils.cpp</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -20985,7 +21057,7 @@
 				<integer>1603</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/apps/mika/uberbeamer/src/wiimote.cpp</string>
+		<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofVec3f.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -21000,9 +21072,100 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>755</integer>
+				<integer>1605</integer>
 			</dict>
 		</dict>
+		<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/math/ofVec4f.cpp</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>362</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1607</integer>
+			</dict>
+		</dict>
+		<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/of3dUtils.h</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>362</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1609</integer>
+			</dict>
+		</dict>
+		<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/ofEasyCam.h</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>362</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1611</integer>
+			</dict>
+		</dict>
+		<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/ofMesh.cpp</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>362</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1613</integer>
+			</dict>
+		</dict>
+		<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/ofCamera.cpp</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>362</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1615</integer>
+			</dict>
+		</dict>
+		<string>file://localhost/Users/Mika/Documents/openFrameworksGit%20May%207/openFrameworks/libs/openFrameworks/3d/ofCamera.h</string>
 	</array>
 	<key>$top</key>
 	<dict>

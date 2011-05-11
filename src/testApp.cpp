@@ -33,7 +33,7 @@ void testApp::setup(){
   
   ofVec3f center = ofVec3f(0, 0, 0);
   float radius = 100;
-  int segments = 25;
+  int segments = 50;
   
   for (int j = 0; j < segments / 2; j++) {
     float theta1 = j * 2 * PI / segments - HALF_PI ;
@@ -119,9 +119,7 @@ void testApp::update(){
       int yMax = kinect.height - (vertexStep * 1);
 
       ofVec3f spherePoint;
-      ofVec3f sphereNormal;
       ofVec3f cloudPoint;    
-      ofVec3f cloudNormal;    
     
       // better to use angle between vectors instead of normals to find matches? function exists.
     
@@ -140,30 +138,26 @@ void testApp::update(){
             cloudPoint.rotate(xRotation, ofVec3f(0, 0, 0), ofVec3f(1, 0, 0));            
             cloudPoint.rotate(yRotation, ofVec3f(0, 0, 0), ofVec3f(0, 1, 0));
             cloudPoint.rotate(zRotation, ofVec3f(0, 0, 0), ofVec3f(0, 0, 1));            
-            
-            // normalize it
-            cloudNormal = cloudPoint.getNormalized();
                         
             // find the closest matching sphere point, then lerp towards the new value (to curb noise)
             
             int minIndex = 0;
-            float minDistance = 100000;
+            float minAngle = 180;
             
             for (int i = 0; i < numExistingVertices; i++) {
               spherePoint = existingVertices[i];
-              sphereNormal = spherePoint.getNormalized();
               
-              float distance = cloudNormal.distance(sphereNormal);
+              float angle = cloudPoint.angle(spherePoint);
 
-              if (distance < minDistance) {
-                minDistance = distance;
+              if (angle < minAngle) {
+                minAngle = angle;
                 minIndex = i;
               }
             }
             
             // now lerp towards whatever was closest
             // TODO LERP
-            existingVertices[minIndex] = cloudPoint;
+            existingVertices[minIndex].scale(ofLerp(existingVertices[minIndex].length(),  cloudPoint.length(), 0.2));
           }
         }
       }
@@ -270,8 +264,9 @@ void testApp::draw(){
 	ofSetColor(100, 100, 100, 100);
 	mesh.drawFaces();
 	ofSetColor(0, 255, 0, 255);
-	//mesh.drawWireframe();
+	
   ofSetColor(255, 255, 255, 255);
+  mesh.drawWireframe();  
 	//mesh.drawVertices();
   
   glDisable(GL_LIGHTING);
