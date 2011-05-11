@@ -3,9 +3,10 @@
 #include "ofMain.h"
 #include "ofxOpenCv.h"
 #include "ofxKinect.h"
-#include "surflib.h"
+//#include "surflib.h"
 //#include "kmeans.h"
 //#include "ofxOpenSurf.h"
+#include "3d/ofMesh.h"
 #include "ofxOsc.h"
 #include "wiimote.h"
 #include "ofxAutoControlPanel.h"
@@ -42,7 +43,7 @@ class testApp : public ofBaseApp{
     ofxAutoControlPanel panel;
   
     // mesh
-    vector<ofVec3f> meshGrid;  
+		ofMesh mesh;
   
   
     // point cloud class for mesh alignment???
@@ -55,6 +56,8 @@ class testApp : public ofBaseApp{
   
     // IMU
 		wiimote wii;
+  
+  float xRotation, yRotation, zRotation;
   
     
   
