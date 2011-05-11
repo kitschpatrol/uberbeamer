@@ -10,6 +10,8 @@
 #include "ofxOsc.h"
 #include "wiimote.h"
 #include "ofxAutoControlPanel.h"
+//#include "ofCamera.h"
+
 
 
 class testApp : public ofBaseApp{
@@ -28,6 +30,7 @@ class testApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);		
+    int getFocus(int distance);  
 
     // kinect
 		ofxKinect kinect;  
@@ -51,15 +54,19 @@ class testApp : public ofBaseApp{
   
   
     // focus distance
-    // TODO
+	ofSerial	serial;
   
-  
+  int kinectFrames;
     // IMU
 		wiimote wii;
-  
   float xRotation, yRotation, zRotation;
   
-    
+  float zzoom;
+    // camera stuff
+    ofEasyCam cam;
+  
+
+  
   
 
 };
