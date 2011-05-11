@@ -118,93 +118,63 @@ void testApp::update(){
       int xMax = kinect.width - (vertexStep * 1);
       int yMax = kinect.height - (vertexStep * 1);
 
+      ofVec3f spherePoint;
       ofVec3f sphereNormal;
+      ofVec3f cloudPoint;    
       ofVec3f cloudNormal;    
+    
+      // better to use angle between vectors instead of normals to find matches? function exists.
+    
+      // todo generate cloud normals
+    
     
       for (int y = 0; y < yMax; y += vertexStep) {
         for (int x = 0; x < xMax; x += vertexStep) {
+        
+          cloudPoint = kinect.getWorldCoordinateFor(x, y) * 100;
           
-          
-          
+          // make sure we have data
+          if (cloudPoint.z > 0) {
+            
+            // rotate it according to where we're facing
+            cloudPoint.rotate(xRotation, ofVec3f(0, 0, 0), ofVec3f(1, 0, 0));            
+            cloudPoint.rotate(yRotation, ofVec3f(0, 0, 0), ofVec3f(0, 1, 0));
+            cloudPoint.rotate(zRotation, ofVec3f(0, 0, 0), ofVec3f(0, 0, 1));            
+            
+            // normalize it
+            cloudNormal = cloudPoint.getNormalized();
+                        
+            // find the closest matching sphere point, then lerp towards the new value (to curb noise)
+            
+            int minIndex = 0;
+            float minDistance = 100000;
+            
+            for (int i = 0; i < numExistingVertices; i++) {
+              spherePoint = existingVertices[i];
+              sphereNormal = spherePoint.getNormalized();
+              
+              float distance = cloudNormal.distance(sphereNormal);
 
-                    // move the fresh vertices according to the gyro          
-          // get the next candidate vertices (TODO add world translation...)
-          ofVec3f topLeft = kinect.getWorldCoordinateFor(x, y) * 100;
-          ofVec3f topRight = kinect.getWorldCoordinateFor(x + vertexStep, y) * 100;
-          ofVec3f bottomRight = kinect.getWorldCoordinateFor(x + vertexStep, y + vertexStep) * 100;
-          ofVec3f bottomLeft = kinect.getWorldCoordinateFor(x, y + vertexStep) * 100;
-          //cout << topLeft << endl;
-
-          if (topLeft.z == 0 || topRight.z == 0 || bottomRight.z == 0 || bottomLeft.z == 0) {
-            // ignore no-data pixels
-          }
-          else {
-            //rotate it according to gyro            
+              if (distance < minDistance) {
+                minDistance = distance;
+                minIndex = i;
+              }
+            }
             
-            
-            topLeft.rotate(yRotation, ofVec3f(0, 0, 0), ofVec3f(0, 1, 0));
-            topRight.rotate(yRotation, ofVec3f(0, 0, 0), ofVec3f(0, 1, 0));
-            bottomRight.rotate(yRotation, ofVec3f(0, 0, 0), ofVec3f(0, 1, 0));  
-            bottomLeft.rotate(yRotation, ofVec3f(0, 0, 0), ofVec3f(0, 1, 0));              
-          
-          // see if it's too close to another point
-          
-          bool tooClose = false;
-          float threshold = vertexStep / 2;
-          
-          for(int i = 0; i < numExistingVertices; i++) {
-            if (existingVertices[i].distance(topLeft) < threshold) tooClose = true;
-            if (existingVertices[i].distance(topRight) < threshold) tooClose = true;
-            if (existingVertices[i].distance(bottomRight) < threshold) tooClose = true;
-            if (existingVertices[i].distance(bottomLeft) < threshold) tooClose = true;            
-            
-            if (tooClose) break;
+            // now lerp towards whatever was closest
+            // TODO LERP
+            existingVertices[minIndex] = cloudPoint;
           }
-          
-          if (!tooClose) {
-//            mesh.addVertex(topLeft);
-//            mesh.addVertex(topRight);
-//            mesh.addVertex(bottomRight);
-//            mesh.addVertex(bottomLeft);
-          }
-          
-          //x += vertexStep; // correct?
-          }
-          
         }
-        
-       // y+= vertexStep; // correct?
-        
       }
+          
+          
+          
+  }
     
-//    glBegin(GL_QUADS);
-//    ofVec3f zero(0, 0, 0);
-//    for(int y = 0; y < yMax; y += vertexStep) {
-//      for(int x = 0; x < xMax; x += vertexStep) {
-//        
-//        ofVec3f& nw = input.pointGrid[y][x];
-//        ofVec3f& ne = input.pointGrid[y][x + vertexStep];
-//        ofVec3f& se = input.pointGrid[y + vertexStep][x + vertexStep];
-//        ofVec3f& sw = input.pointGrid[y + vertexStep][x];
-//        
-//        if(nw != zero && ne != zero && sw != zero && se != zero) {
-//          
-//          ofVec3f right = ne - nw;
-//          ofVec3f down = sw - nw;
-//          ofVec3f out = down.cross(right);
-//          
-//          glNormal3f(out.x, out.y, out.z);						
-//          glVertex3f(nw.x, nw.y, nw.z);
-//          glVertex3f(ne.x, ne.y, ne.z);
-//          glVertex3f(se.x, se.y, se.z);
-//          glVertex3f(sw.x, sw.y, sw.z);
-//          
-//        }
-//      }
-//    }
-//    glEnd();
+
 	}
-}
+
 
 
 void testApp::draw(){
@@ -292,20 +262,20 @@ void testApp::draw(){
   
   
 //  // draw the mesh
-//  glEnable(GL_LIGHTING);
-//  glEnable(GL_DEPTH_TEST);
-//  glEnable(GL_LIGHT0);
-//  glEnable(GL_NORMALIZE);  
+  glEnable(GL_LIGHTING);
+  glEnable(GL_DEPTH_TEST);
+  glEnable(GL_LIGHT0);
+  glEnable(GL_NORMALIZE);  
 //  
 	ofSetColor(100, 100, 100, 100);
-	//mesh.drawFaces();
+	mesh.drawFaces();
 	ofSetColor(0, 255, 0, 255);
-	mesh.drawWireframe();
+	//mesh.drawWireframe();
   ofSetColor(255, 255, 255, 255);
 	//mesh.drawVertices();
   
-//  glDisable(GL_LIGHTING);
-//  glDisable(GL_DEPTH_TEST);    
+  glDisable(GL_LIGHTING);
+  glDisable(GL_DEPTH_TEST);    
   
   
   
