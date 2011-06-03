@@ -12,8 +12,6 @@
 #include "ofxAutoControlPanel.h"
 //#include "ofCamera.h"
 
-
-
 class testApp : public ofBaseApp{
   
 public:
@@ -31,7 +29,8 @@ public:
   void dragEvent(ofDragInfo dragInfo);
   void gotMessage(ofMessage msg);		
   int getFocus(int distance);  
-  
+  void drawSphere();
+  void focus(); 
   // kinect
   ofxKinect kinect;  
   
@@ -65,6 +64,10 @@ public:
   // camera stuff
   ofEasyCam cam;
   
+  bool neutralize;
+  
+  
+  float yawTrimAccumulator;
   
   
   
