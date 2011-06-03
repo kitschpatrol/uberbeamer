@@ -27,9 +27,14 @@ void testApp::setup(){
   panel.addSlider("y pos", "yroff", -180, -180, 180, false);  
   panel.addSlider("z pos", "zroff", 0, -180, 180, false);
   panel.addSlider("yaw trim", "yawTrim", 0, -2, 2, false);  
+  panel.addToggle("flip yaw", "flipYaw", false);    
   panel.addToggle("show kinect images", "showKinect", true);  
+  panel.addToggle("show origin axes", "showAxes", true);    
+  panel.addToggle("show point cloud", "showPointCloud", false);
+  panel.addToggle("show kinect frustum", "showKinectFrustum", false);
+  panel.addToggle("show gyro", "showGyro", false);  
 	panel.addPanel("focus");  
-  panel.addToggle("focus connected", "focusConnected", false);
+  panel.addToggle("focus connected", "focusConnected", true);
   panel.addToggle("auto focus", "autoFocus", true);
   panel.addSlider("focus", "focus", 50, 27, 80, true);
   
@@ -71,8 +76,16 @@ void testApp::update(){
     yawTrimAccumulator += panel.getValueF("yawTrim");
     
     xRotation = ofMap(wii.pitch, 0, 1, 90, -90);  
-    yRotation = ofMap(wii.yawPlus, 0, 1, 0, 360) + yawTrimAccumulator; // TODO fix weird wrap
-
+    
+    if(panel.getValueB("flipYaw")) {
+      yRotation = ofMap(wii.yawPlus, 0, 1, 360, 0) + yawTrimAccumulator; // TODO fix weird wrap      
+    }
+    else {
+      yRotation = ofMap(wii.yawPlus, 0, 1, 0, 360) + yawTrimAccumulator; // TODO fix weird wrap  
+    }
+    
+    
+    
     zRotation = ofMap(wii.rollPlus, 0, 1, -180, 180);
     // TODO sort out roll
     zRotation = 0;
@@ -115,7 +128,7 @@ void testApp::update(){
           cloudPoint.rotate(yRotation, ofVec3f(0, 0, 0), ofVec3f(0, 1, 0));
           cloudPoint.rotate(zRotation, ofVec3f(0, 0, 0), ofVec3f(0, 0, 1));            
           
-          // multiply it out, why do we do this?
+          // multiply it out, why do we do this? mm to pixels?
           cloudPoint *= 100;
           
           cloudNormal = cloudPoint.getNormalized();            
@@ -151,47 +164,72 @@ void testApp::update(){
       }
     }
     
-    
-    
   }
   
   
 }
 
 
-
 void testApp::draw(){
   ofSetColor(255, 255, 255);
   
   ofPushMatrix();
-
+  
   // center origin
   ofTranslate(ofGetWidth() / 2, ofGetHeight() / 2);
   
   // target vector, center of point cloud (what if doesn't exist? use most recent?)
-  ofVec3f target = kinect.getCalibration().getWorldCoordinateFor(320, 240, 255.0 / 100.0) * 100;//
+  ofVec3f target = kinect.getCalibration().getWorldCoordinateFor(320, 240, 255.0 / 100.0) * 100; //
+  
+  
+  if (drawDistance == 0) {
+    drawDistance = target.length();
+  }
   
   target.rotate(xRotation, ofVec3f(0, 0, 0), ofVec3f(1, 0, 0));            
   target.rotate(yRotation, ofVec3f(0, 0, 0), ofVec3f(0, 1, 0));
   target.rotate(zRotation, ofVec3f(0, 0, 0), ofVec3f(0, 0, 1));     
   
-  //  cam.resetTransform();
-  //  cam.setGlobalPosition(0, 0, 0);
-  //  cam.setTarget(target);
-  //  
-  //  cam.begin();  
+  cout << "Target: " << target << endl;
   
   
-  // draw origin lines
+  // only update if it's non zero? TODO
+  ofVec3f testDrawTarget = kinect.getWorldCoordinateFor(320, 240) * 100;
+  
+  cout << "draw target size: " << testDrawTarget.length() << endl;
+  
+  if (testDrawTarget.length() > 0) {
+    drawTarget = testDrawTarget;
+    drawTarget.rotate(xRotation, ofVec3f(0, 0, 0), ofVec3f(1, 0, 0));            
+    drawTarget.rotate(yRotation, ofVec3f(0, 0, 0), ofVec3f(0, 1, 0));
+    drawTarget.rotate(zRotation, ofVec3f(0, 0, 0), ofVec3f(0, 0, 1));   
+    drawDistance = drawTarget.length();        
+  }
+  else {
+    // use last known z for depth
+    drawTarget = target;
+    drawTarget.normalize();
+    drawTarget.scale(drawDistance);
+  }
+  
+  
+  
+  
+  cout << "Draw Target: " << drawTarget << endl;  
+  
+  if (isDrawing) {
+    drawing.push_back(drawTarget);
+  }
 
   
+  
+  // draw origin lines  
   ofVec3f origin = ofVec3f(0.0, 0.0, 0.0);
   ofVec3f upX = ofVec3f(100.0, 0.0, 0.0);
   ofVec3f upY = ofVec3f(0.0, 100.0, 0.0);
-  ofVec3f upZ = ofVec3f(0.0, 0.0, 100.0);
+  ofVec3f upZ = ofVec3f(0.0, 0.0, 100.0);  
   
-  if(true) {
-    
+  if (panel.getValueB("showAxes")) {  
     ofSetColor(255, 0, 0);
     ofLine(origin, upX);
     ofDrawBitmapString("X", 105, 0);    
@@ -206,7 +244,6 @@ void testApp::draw(){
     ofTranslate(0.0, 0.0, 105.0);
     ofDrawBitmapString("Z", 0, 0);
     ofPopMatrix();
-    
   }
   
   // draw kinect frustum
@@ -223,8 +260,7 @@ void testApp::draw(){
   ofVec3f bottomRight = kinect.getCalibration().getWorldCoordinateFor(640.0, 480.0, 255.0 / 100.0) * 100;    
   ofVec3f bottomLeft = kinect.getCalibration().getWorldCoordinateFor(0.0, 480.0, 255.0 / 100.0) * 100;
   
-  if(false) {
-    
+  if (panel.getValueB("showKinectFrustum")) {
     ofSetColor(255, 0, 0);
     ofLine(topLeft, topRight);
     ofLine(topRight, bottomRight);
@@ -237,22 +273,24 @@ void testApp::draw(){
   }
   
   // draw kinect point cloud
-  int xStep = 20;
-  int yStep = 20;    
-  
-  ofSetColor(255, 255, 255);
-  glPointSize(2.0);
-  glBegin(GL_POINTS);  
-  
-  for (int x = xStep; x < 640; x += xStep) {
-    for (int y = yStep; y < 480; y += yStep) {
-      ofPoint cur = kinect.getWorldCoordinateFor(x, y) * 100;
-      ofColor color = kinect.getCalibratedColorAt(x,y);
-      glColor3ub((unsigned char)color.r,(unsigned char)color.g,(unsigned char)color.b);
-      glVertex3f(cur.x, cur.y, cur.z);
-    }
-  }    
-  glEnd();
+  if (panel.getValueB("showPointCloud")) {
+    int xStep = 20;
+    int yStep = 20;    
+    
+    ofSetColor(255, 255, 255);
+    glPointSize(2.0);
+    glBegin(GL_POINTS);  
+    
+    for (int x = xStep; x < 640; x += xStep) {
+      for (int y = yStep; y < 480; y += yStep) {
+        ofPoint cur = kinect.getWorldCoordinateFor(x, y) * 100;
+        ofColor color = kinect.getCalibratedColorAt(x,y);
+        glColor3ub((unsigned char)color.r,(unsigned char)color.g,(unsigned char)color.b);
+        glVertex3f(cur.x, cur.y, cur.z);
+      }
+    }    
+    glEnd();
+  }
   
   
   ofPopMatrix();
@@ -279,9 +317,9 @@ void testApp::draw(){
   
   gluLookAt(0, 0, 0, target.x, target.y, target.z, 0, 1, 0);
   // TEMP OFF
-//  ofRotateX(xRotation + panel.getValueF("xroff"));
-//  ofRotateY(yRotation + panel.getValueF("yroff"));  
-//  ofRotateZ(zRotation + panel.getValueF("zroff"));  
+  //  ofRotateX(xRotation + panel.getValueF("xroff"));
+  //  ofRotateY(yRotation + panel.getValueF("yroff"));  
+  //  ofRotateZ(zRotation + panel.getValueF("zroff"));  
   
 	ofSetLineWidth(2);
   ofSetColor(255, 255, 255, 255);
@@ -290,13 +328,42 @@ void testApp::draw(){
   ofDisableSmoothing();
 	//mesh.drawVertices();
   
+  //ofSetColor(100, 100, 100, 100);
+  //
+  //  glEnable(GL_DEPTH_TEST);
+  //  
+  //  mesh.drawFaces();  
+  //
+  //  glDisable(GL_DEPTH_TEST);      
+  
+  
+  
+  // drawing into the space?
+  ofSetColor(255, 0, 0, 100);  
+  for (int i = 0; i < drawing.size(); i++) {
+    ofBox(drawing[i].x, drawing[i].y, drawing[i].z, 20);
+  }
+  ofSetColor(255, 255, 255, 255);
+  
+  
+  
+  
+  
+  
+  
+  ofSetColor(255, 255, 255, 255);  
+  
+  
+  
+  
+  
   ofPopMatrix();    
   
   
   
   // back to top left origin for overlay drawing
   ofPopMatrix();  
-
+  
   
   
   //cam.end();
@@ -308,38 +375,42 @@ void testApp::draw(){
   // show IMU angles
   ofNoFill();
   ofSetLineWidth(1);
-  ofSetColor(255, 0, 0);  
+  ofSetColor(255, 0, 0);    
   
-  ofPushMatrix();
-  ofTranslate(100, 600);
-  
-  // Yaw
-  ofPushMatrix();
-  ofRotate(yRotation);
-  ofLine(0, 0, 0, -50);
-  ofCircle(0, 0, 50);
-  ofPopMatrix();
-  
-  
-  // Pitch
-  float p = ofMap(wii.pitch, 0, 1, 50, -50);
-  
-  ofPushMatrix();
-  ofTranslate(70, 0);
-  ofRect(-10, -50, 20, 100);
-  ofLine(-10, p, 10, p);
-  ofPopMatrix();
-  
-  // Roll
-  ofPushMatrix();
-  ofTranslate(0, 70);
-  ofRotate(zRotation);
-  ofLine(0, -10, 0, 10);
-  ofLine(-50, 0, 50, 0);
-  ofPopMatrix();
-  
-  ofPopMatrix();  
-  
+  if (panel.getValueB("showGyro")) {      
+
+    
+    ofPushMatrix();
+    ofTranslate(100, 600);
+    
+    // Yaw
+    ofPushMatrix();
+    ofRotate(yRotation);
+    ofLine(0, 0, 0, -50);
+    ofCircle(0, 0, 50);
+    ofPopMatrix();
+    
+    
+    // Pitch
+    float p = ofMap(wii.pitch, 0, 1, 50, -50);
+    
+    ofPushMatrix();
+    ofTranslate(70, 0);
+    ofRect(-10, -50, 20, 100);
+    ofLine(-10, p, 10, p);
+    ofPopMatrix();
+    
+    // Roll
+    ofPushMatrix();
+    ofTranslate(0, 70);
+    ofRotate(zRotation);
+    ofLine(0, -10, 0, 10);
+    ofLine(-50, 0, 50, 0);
+    ofPopMatrix();
+    
+    
+    ofPopMatrix(); 
+  }
   
   ofSetColor(255, 255, 255);
   
@@ -354,11 +425,13 @@ void testApp::draw(){
 void testApp::keyPressed(int key){
   if (key == 'f') ofToggleFullscreen();
   if (key == 'n') neutralize = true;
+  if (key == 'c') drawing.clear();  
+  if (key == ' ') isDrawing = true;  
 }
 
 
 void testApp::keyReleased(int key){
-  
+  if (key == ' ') isDrawing = false;    
 }
 
 
@@ -468,7 +541,9 @@ void testApp::focus() {
       }
     }
     
-    averageDepth /= averageCount;        
+    if(averageCount > 0) {
+      averageDepth /= averageCount;        
+    }
     
     focusValue = getFocus(averageDepth);    
     

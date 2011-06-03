@@ -69,7 +69,10 @@ public:
   
   float yawTrimAccumulator;
   
-  
+  vector<ofVec3f> drawing;
+  ofVec3f drawTarget;
+  float drawDistance;
+  bool isDrawing;
   
   
 };
