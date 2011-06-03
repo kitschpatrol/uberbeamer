@@ -15,59 +15,59 @@
 
 
 class testApp : public ofBaseApp{
-
-	public:
-		void setup();
-		void update();
-		void draw();
-		
-		void keyPressed(int key);
-		void keyReleased(int key);
-		void mouseMoved(int x, int y );
-		void mouseDragged(int x, int y, int button);
-		void mousePressed(int x, int y, int button);
-		void mouseReleased(int x, int y, int button);
-		void windowResized(int w, int h);
-		void dragEvent(ofDragInfo dragInfo);
-		void gotMessage(ofMessage msg);		
-    int getFocus(int distance);  
-
-    // kinect
-		ofxKinect kinect;  
   
-    // NO SURF UNTIL WE HAVE RGB CALIBRATION
-    // surf
-//    ofxSurfImage surfImage;  
-//    ofxSurfMotion surfMotion;
-//    IpVec surfPoints;
-//    IpPairVec surfMatches;
+public:
+  void setup();
+  void update();
+  void draw();
   
-    // control panel
-    ofxAutoControlPanel panel;
+  void keyPressed(int key);
+  void keyReleased(int key);
+  void mouseMoved(int x, int y );
+  void mouseDragged(int x, int y, int button);
+  void mousePressed(int x, int y, int button);
+  void mouseReleased(int x, int y, int button);
+  void windowResized(int w, int h);
+  void dragEvent(ofDragInfo dragInfo);
+  void gotMessage(ofMessage msg);		
+  int getFocus(int distance);  
   
-    // mesh
-		ofMesh mesh;
+  // kinect
+  ofxKinect kinect;  
   
+  // NO SURF UNTIL WE HAVE RGB CALIBRATION
+  // surf
+  //    ofxSurfImage surfImage;  
+  //    ofxSurfMotion surfMotion;
+  //    IpVec surfPoints;
+  //    IpPairVec surfMatches;
   
-    // point cloud class for mesh alignment???
-    // port rbgd reconstructor?
+  // control panel
+  ofxAutoControlPanel panel;
+  
+  // mesh
+  ofMesh mesh;
   
   
-    // focus distance
+  // point cloud class for mesh alignment???
+  // port rbgd reconstructor?
+  
+  
+  // focus distance
 	ofSerial	serial;
   
   int kinectFrames;
-    // IMU
-		wiimote wii;
+  // IMU
+  wiimote wii;
   float xRotation, yRotation, zRotation;
   
   float zzoom;
-    // camera stuff
-    ofEasyCam cam;
-  
-
+  // camera stuff
+  ofEasyCam cam;
   
   
-
+  
+  
+  
 };
 

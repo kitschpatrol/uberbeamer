@@ -5,10 +5,10 @@ void testApp::setup(){
   
   // set up serial
 	serial.enumerateDevices();
-	serial.setup("/dev/tty.usbmodemfd1321", 9600);  
+	serial.setup("/dev/tty.usbmodemfa141", 9600);
   
   // set up kinect
-	kinect.init();
+	kinect.init();  
 	kinect.setVerbose(true);
 	kinect.open();  
   
@@ -33,7 +33,9 @@ void testApp::setup(){
   panel.addSlider("x pos", "xroff", 0, -180, 180, false);  
   panel.addSlider("y pos", "yroff", -180, -180, 180, false);  
   panel.addSlider("z pos", "zroff", 0, -180, 180, false);
+  panel.addToggle("auto focus", "autoFocus", true);                  
   panel.addSlider("focus", "focus", 122, 0, 180, false);
+  
   
   
   // create the sphere mesh which we will progressively poke outward
@@ -113,9 +115,13 @@ void testApp::setup(){
 
 int testApp::getFocus(int distance) {
 
+  cout << "Focusing on " << distance << endl;
+  
   int focusLength = 13;
   
-  int focusTable[13][2] = {{162, 27}, {152, 38},
+  int focusTable[13][2] = {
+    {162, 27},
+    {152, 38},
     {145, 46},
     {140, 52},
     {137, 57},
@@ -128,13 +134,16 @@ int testApp::getFocus(int distance) {
     {123, 75},
     {122, 80}};
   
-
+  // what about " no data? "  
+  
     if (distance >= focusTable[0][0]) {
       // too close
+      cout << "too close" << endl;
       return focusTable[0][1];
     }
     else if (distance <= focusTable[focusLength - 1][0]) {
       // too far
+      cout << "too far" << endl;      
       return focusTable[focusLength - 1][1];
     }
     else {
@@ -167,9 +176,6 @@ void testApp::update(){
   zRotation = ofMap(wii.rollPlus, 0, 1, -180, 180);
 
   
-
-
-  
   
 	if (kinect.isFrameNew()) {
     // pass the RGB image to surf (find a way to get high-res?)
@@ -185,25 +191,42 @@ void testApp::update(){
     // don't add vertices if there are others nearby
     kinectFrames++;
     
-      // focus
-    if(kinectFrames % 20 == 0) {
+    // focus
+    if(kinectFrames % 5 == 0) {
+
+      int focusValue;
       
-      unsigned char * depthPixels = kinect.getDepthPixels();
+      // TK manual override
+      if(panel.getValueB("autoFocus")) {
+        // auto focus
+        
+        unsigned char * depthPixels = kinect.getDepthPixels();        
+        
+        // find average depth
+        int averageDepth = 0;
+        int averageCount = 0;
+        
+        for(int i = 0; i < 640 * 480; i++) {
+          if((int)depthPixels[i] > 0) {
+            averageDepth += (int)depthPixels[i];
+            averageCount++;
+          }
+        }
+        
+        averageDepth /= averageCount;        
+        
+        focusValue = getFocus(averageDepth);    
+        
+        panel.setValueF("focus", focusValue);
+        
+      }
+      else {
+        // manual focus with slider
+        focusValue = round(panel.getValueF("focus"));        
+      }
       
-      
-      
-      unsigned char focusPixel = depthPixels[640 * 480 / 2];
-      
-      
-      int focusValue = getFocus(focusPixel);
-      
-      focusValue =round(panel.getValueF("focus"));
-      
-      //cout << focusPixel << "\t" << focusValue << endl;
-      unsigned char focusByte = (unsigned char)focusValue;
-      
-      cout << focusByte << endl;
-      
+      // send it to the servo
+      // unsigned char focusByte = (unsigned char)focusValue;
       serial.writeByte(focusValue);
     }
     
@@ -281,14 +304,7 @@ void testApp::update(){
 
 
 void testApp::draw(){
-  
 
-  
-  
-
-
-
-  
   ofSetColor(255, 255, 255);
 
   ofPushMatrix();
@@ -474,7 +490,7 @@ void testApp::draw(){
   
   ofSetColor(255, 255, 255);
   
-  if(false) {
+  if(true) {
   kinect.draw(0, 0, 160, 120);
   kinect.drawDepth(160, 0, 160, 120);
   }
