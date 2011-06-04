@@ -5,7 +5,7 @@ void testApp::setup(){
   
   // set up serial
 	serial.enumerateDevices();
-	serial.setup("/dev/tty.usbmodemfa141", 9600);
+	serial.setup("/dev/tty.usbmodemfd1321", 9600);
   
   // set up kinect
 	kinect.init();  
@@ -19,25 +19,37 @@ void testApp::setup(){
   //  surfImage.allocate(320, 240);  
   //  surfMotion.setup(&surfImage);
   
-  // set up control panel  
-	panel.setup("Control Panel", ofGetWidth() - 315, 5, 300, 600);
-	panel.addPanel("camera");
-  panel.addSlider("z pos", "zpos", 600, -500, 1000, false);  
-  panel.addSlider("x pos", "xroff", 0, -180, 180, false);  
-  panel.addSlider("y pos", "yroff", -180, -180, 180, false);  
-  panel.addSlider("z pos", "zroff", 0, -180, 180, false);
+  // set up control panel
+	panel.setup("Control Panel", ofGetWidth() - 315, 5, 280, 600);
+  
+  panel.addPanel("uby");
   panel.addSlider("yaw trim", "yawTrim", 0, -2, 2, false);  
-  panel.addToggle("flip yaw", "flipYaw", false);    
-  panel.addToggle("show kinect images", "showKinect", true);  
-  panel.addToggle("show origin axes", "showAxes", true);    
+  panel.addToggle("flip yaw", "flipYaw", true);    
+  panel.addToggle("show kinect images", "showKinect", false);  
+  panel.addToggle("show origin axes", "showAxes", false);    
   panel.addToggle("show point cloud", "showPointCloud", false);
   panel.addToggle("show kinect frustum", "showKinectFrustum", false);
   panel.addToggle("show gyro", "showGyro", false);  
-	panel.addPanel("focus");  
+  panel.addSlider("world scale", "worldScale", 100, 1, 1000, false);  
+  panel.addSlider("sphere scale", "sphereScale", 1, -5, 5, false); 
+  panel.addToggle("wireframe", "wireframe", true);  
+  panel.addToggle("fill", "fill", false);  
+  
+  panel.addPanel("camera");
+  panel.addSlider("z pos", "zpos", 600, -500, 1000, false);  
+  panel.addSlider("x rotation", "xroff", 0, -180, 180, false);  
+  panel.addSlider("y rotation", "yroff", 0, -180, 180, false);  
+  panel.addSlider("z rotation", "zroff", 0, -180, 180, false);
+//  panel.addSlider("field of view", "fovy", 90, 60, 180, false);
+//  panel.addSlider("z near", "znear", 1, 1, 1000, false);
+//  panel.addSlider("z far", "zfar", 10000, 0, 10000, false);  
+
+  panel.addPanel("focus");  
   panel.addToggle("focus connected", "focusConnected", true);
   panel.addToggle("auto focus", "autoFocus", true);
   panel.addSlider("focus", "focus", 50, 27, 80, true);
-  
+
+
   drawSphere();
   
   
@@ -55,12 +67,17 @@ void testApp::setup(){
   neutralize = true;
   
   yawTrimAccumulator = 0;
+  
+  worldScale = 100.0;
 }
 
 void testApp::update(){
 	ofBackground(0,0,0);  
   kinect.update();
 	wii.update();
+  
+  sphereScale = panel.getValueF("sphereScale");
+  
   
   if (neutralize) {
     cout << "Neutralizing" << endl;
@@ -83,9 +100,7 @@ void testApp::update(){
     else {
       yRotation = ofMap(wii.yawPlus, 0, 1, 0, 360) + yawTrimAccumulator; // TODO fix weird wrap  
     }
-    
-    
-    
+
     zRotation = ofMap(wii.rollPlus, 0, 1, -180, 180);
     // TODO sort out roll
     zRotation = 0;
@@ -95,7 +110,7 @@ void testApp::update(){
     kinectFrames++;
     
     // focus
-    if(kinectFrames % 5 == 0) {
+    if (kinectFrames % 5 == 0) {
       focus();
     }
     
@@ -123,21 +138,24 @@ void testApp::update(){
         // make sure we have data
         if (cloudPoint.z > 0) {
           
+          //cloudPoint.normalize().scale(worldScale);
+          
           // rotate it according to where we're facing
           cloudPoint.rotate(xRotation, ofVec3f(0, 0, 0), ofVec3f(1, 0, 0));            
           cloudPoint.rotate(yRotation, ofVec3f(0, 0, 0), ofVec3f(0, 1, 0));
           cloudPoint.rotate(zRotation, ofVec3f(0, 0, 0), ofVec3f(0, 0, 1));            
           
           // multiply it out, why do we do this? mm to pixels?
-          cloudPoint *= 100;
+          cloudPoint *= worldScale;
           
           cloudNormal = cloudPoint.getNormalized();            
           
+          // hole filling?
           
           // find the closest matching sphere point, then lerp towards the new value (to curb noise)
           
           int minIndex = 0;
-          float minDistance = 100000;
+          float minDistance = 1000000;
           
           for (int i = 0; i < numExistingVertices; i++) {
             spherePoint = existingVertices[i];
@@ -158,7 +176,7 @@ void testApp::update(){
           
           // are we pushing or pulling the mesh? only push
           if (existingVertices[minIndex].length() < cloudPoint.length()) {
-            existingVertices[minIndex].scale(ofLerp(existingVertices[minIndex].length(),  cloudPoint.length(), 0.2));
+            existingVertices[minIndex].scale(ofLerp(existingVertices[minIndex].length(),  cloudPoint.length() * sphereScale, 0.2));
           }
         }
       }
@@ -167,11 +185,19 @@ void testApp::update(){
   }
   
   
+
+  
 }
 
 
 void testApp::draw(){
+  
+//  gluPerspective(190, ofGetWidth() / ofGetHeight(), 1, 100);      
+//  glViewport(0, 0, ofGetWidth(), ofGetHeight());  
+  
   ofSetColor(255, 255, 255);
+  
+
   
   ofPushMatrix();
   
@@ -179,7 +205,7 @@ void testApp::draw(){
   ofTranslate(ofGetWidth() / 2, ofGetHeight() / 2);
   
   // target vector, center of point cloud (what if doesn't exist? use most recent?)
-  ofVec3f target = kinect.getCalibration().getWorldCoordinateFor(320, 240, 255.0 / 100.0) * 100; //
+  ofVec3f target = kinect.getCalibration().getWorldCoordinateFor(320, 240, 255.0 / 100.0) * worldScale; //
   
   
   if (drawDistance == 0) {
@@ -190,13 +216,13 @@ void testApp::draw(){
   target.rotate(yRotation, ofVec3f(0, 0, 0), ofVec3f(0, 1, 0));
   target.rotate(zRotation, ofVec3f(0, 0, 0), ofVec3f(0, 0, 1));     
   
-  cout << "Target: " << target << endl;
+  //cout << "Target: " << target << endl;
   
   
   // only update if it's non zero? TODO
-  ofVec3f testDrawTarget = kinect.getWorldCoordinateFor(320, 240) * 100;
+  ofVec3f testDrawTarget = kinect.getWorldCoordinateFor(320, 240) * worldScale;
   
-  cout << "draw target size: " << testDrawTarget.length() << endl;
+  //cout << "draw target size: " << testDrawTarget.length() << endl;
   
   if (testDrawTarget.length() > 0) {
     drawTarget = testDrawTarget;
@@ -215,7 +241,7 @@ void testApp::draw(){
   
   
   
-  cout << "Draw Target: " << drawTarget << endl;  
+  //cout << "Draw Target: " << drawTarget << endl;  
   
   if (isDrawing) {
     drawing.push_back(drawTarget);
@@ -255,10 +281,10 @@ void testApp::draw(){
   ofRotateY(yRotation);
   ofRotateZ(zRotation);  
   
-  ofVec3f topLeft = kinect.getCalibration().getWorldCoordinateFor(0.0, 0.0, 255.0 / 100.0) * 100;
-  ofVec3f topRight = kinect.getCalibration().getWorldCoordinateFor(640.0, 0.0, 255.0 / 100.0) * 100;
-  ofVec3f bottomRight = kinect.getCalibration().getWorldCoordinateFor(640.0, 480.0, 255.0 / 100.0) * 100;    
-  ofVec3f bottomLeft = kinect.getCalibration().getWorldCoordinateFor(0.0, 480.0, 255.0 / 100.0) * 100;
+  ofVec3f topLeft = kinect.getCalibration().getWorldCoordinateFor(0.0, 0.0, 255.0 / worldScale) * worldScale;
+  ofVec3f topRight = kinect.getCalibration().getWorldCoordinateFor(640.0, 0.0, 255.0 / worldScale) * worldScale;
+  ofVec3f bottomRight = kinect.getCalibration().getWorldCoordinateFor(640.0, 480.0, 255.0 / worldScale) * worldScale;    
+  ofVec3f bottomLeft = kinect.getCalibration().getWorldCoordinateFor(0.0, 480.0, 255.0 / worldScale) * worldScale;
   
   if (panel.getValueB("showKinectFrustum")) {
     ofSetColor(255, 0, 0);
@@ -283,7 +309,7 @@ void testApp::draw(){
     
     for (int x = xStep; x < 640; x += xStep) {
       for (int y = yStep; y < 480; y += yStep) {
-        ofPoint cur = kinect.getWorldCoordinateFor(x, y) * 100;
+        ofPoint cur = kinect.getWorldCoordinateFor(x, y) * worldScale;
         ofColor color = kinect.getCalibratedColorAt(x,y);
         glColor3ub((unsigned char)color.r,(unsigned char)color.g,(unsigned char)color.b);
         glVertex3f(cur.x, cur.y, cur.z);
@@ -313,32 +339,39 @@ void testApp::draw(){
   ofPushMatrix();
   ofTranslate(0, 0, panel.getValueF("zpos"));
   
-  
+
+
   
   gluLookAt(0, 0, 0, target.x, target.y, target.z, 0, 1, 0);
-  // TEMP OFF
-  //  ofRotateX(xRotation + panel.getValueF("xroff"));
-  //  ofRotateY(yRotation + panel.getValueF("yroff"));  
-  //  ofRotateZ(zRotation + panel.getValueF("zroff"));  
   
+
+  
+  // TEMP OFF
+  ofRotateX(panel.getValueF("xroff"));
+  ofRotateY(panel.getValueF("yroff"));  
+  ofRotateZ(panel.getValueF("zroff"));  
+
+  if (panel.getValueB("wireframe")) {  
 	ofSetLineWidth(2);
   ofSetColor(255, 255, 255, 255);
-  ofEnableSmoothing();
+  //ofEnableSmoothing();
   mesh.drawWireframe();  
-  ofDisableSmoothing();
+  //ofDisableSmoothing();
 	//mesh.drawVertices();
+  }
   
-  //ofSetColor(100, 100, 100, 100);
-  //
-  //  glEnable(GL_DEPTH_TEST);
-  //  
-  //  mesh.drawFaces();  
-  //
-  //  glDisable(GL_DEPTH_TEST);      
-  
+  if (panel.getValueB("fill")) {
+    ofFill();    
+    ofSetColor(100, 100, 100, 200);
+    glEnable(GL_DEPTH_TEST);
+    mesh.drawFaces();  
+    glDisable(GL_DEPTH_TEST);
+    ofSetColor(255, 255, 255, 255);  
+  }
   
   
   // drawing into the space?
+  ofFill();
   ofSetColor(255, 0, 0, 100);  
   for (int i = 0; i < drawing.size(); i++) {
     ofBox(drawing[i].x, drawing[i].y, drawing[i].z, 20);
@@ -419,6 +452,7 @@ void testApp::draw(){
     kinect.draw(0, 0, 160, 120);
     kinect.drawDepth(160, 0, 160, 120);
   }
+  
 }
 
 
@@ -441,17 +475,18 @@ void testApp::mouseMoved(int x, int y ){
 
 
 void testApp::mouseDragged(int x, int y, int button){
-  
+  isDrawing = true;
 }
 
 
 void testApp::mousePressed(int x, int y, int button){
+  isDrawing = true;
   
 }
 
 
 void testApp::mouseReleased(int x, int y, int button){
-  
+    isDrawing = false;
 }
 
 

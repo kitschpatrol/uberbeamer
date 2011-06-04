@@ -62,7 +62,7 @@ public:
   
   float zzoom;
   // camera stuff
-  ofEasyCam cam;
+  //ofEasyCam cam;
   
   bool neutralize;
   
@@ -73,6 +73,10 @@ public:
   ofVec3f drawTarget;
   float drawDistance;
   bool isDrawing;
+  
+  
+  float worldScale;
+  float sphereScale;
   
   
 };
