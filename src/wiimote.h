@@ -6,7 +6,7 @@
 
 // FOR USE WITH OSCULATOR
 
-// listen on port 5600, send on localhost
+// listen on port 9000, send to localhost on port 9001
 #define HOST "127.0.0.1"
 #define INBOUND_PORT 9000
 #define OUTBOUND_PORT 9001

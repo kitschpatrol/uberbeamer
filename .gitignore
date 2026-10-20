@@ -2,6 +2,7 @@
 build/
 
 # binaries?
+bin/
 
 # mac stuff
 .DS_Store

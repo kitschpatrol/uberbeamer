@@ -69,6 +69,9 @@ void testApp::setup(){
   yawTrimAccumulator = 0;
   
   worldScale = 100.0;
+
+  isDrawing = false;
+  drawDistance = 0;
 }
 
 void testApp::update(){

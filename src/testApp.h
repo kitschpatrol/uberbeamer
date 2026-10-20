@@ -49,7 +49,7 @@ public:
   
   
   // point cloud class for mesh alignment???
-  // port rbgd reconstructor?
+  // port rgbd reconstructor?
   
   
   // focus distance

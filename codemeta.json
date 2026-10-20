@@ -1,0 +1,71 @@
+{
+  "@context": "https://w3id.org/codemeta/3.1",
+  "@type": "SoftwareSourceCode",
+  "name": "überbeamer",
+  "identifier": "uberbeamer",
+  "description": "A means of making any surface writeable. ITP thesis project, 2011.",
+  "version": "1.0",
+  "author": [
+    {
+      "@type": "Person",
+      "email": "eric@ericmika.com",
+      "name": "Eric Mika",
+      "url": "https://ericmika.com"
+    }
+  ],
+  "codeRepository": "https://github.com/kitschpatrol/uberbeamer",
+  "issueTracker": "https://github.com/kitschpatrol/uberbeamer/issues",
+  "url": "https://uberbeamer.com",
+  "dateCreated": "2011-05-10",
+  "keywords": [
+    "openframeworks",
+    "kinect",
+    "projection",
+    "wiimote",
+    "computer-vision",
+    "itp"
+  ],
+  "operatingSystem": [
+    "macOS"
+  ],
+  "programmingLanguage": [
+    "C++"
+  ],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "openFrameworks",
+      "url": "https://openframeworks.cc"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "ofxKinect",
+      "url": "https://github.com/ofTheo/ofxKinect"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "ofxControlPanel",
+      "url": "https://github.com/kylemcdonald/ofxControlPanel"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "ofxDirList"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "ofxOpenCv"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "ofxOpenSurf"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "ofxOsc"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "OSCulator"
+    }
+  ]
+}
